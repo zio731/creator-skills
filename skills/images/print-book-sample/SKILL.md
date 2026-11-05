@@ -19,3 +19,7 @@ Define the page role, title, content blocks, diagrams and continuation rules in 
 Use the [cover direction worksheet](../../../references/cover-art-direction/ORDIVANE_WORKFLOW.md) for composition. Route to [Agnes](../agnes-book-cover/SKILL.md) when the brief calls for generated cover artwork and an authorized route is available. Use original local vectors where they explain the concept clearly. Add lettering in layout. Inspect the front at page size and 160 px.
 
 Render every sample page at the actual trim. Review font embedding, clipping, margins, text overflow, contrast and the effective resolution of placed raster assets. Check the exported interior color spaces when grayscale is required. Compare the PDF to the layout data and verify representative exercise or diagram values against their source. Save the render checks, source and output digests and scope of review. Label the sample as ready for review only after the checks pass.
+
+## Automation handoff
+
+Keep art direction and technical preflight as separate checks. Bind the direction to the dossier and the artwork receipt to the exact direction and asset digest. Put a technical cover used to test the renderer in a separate review state. If the artwork is missing, rejected or mismatched, return a waiting state before rendering the editorial sample. Pass that state back to the calling workflow so it can preserve the dossier and resume from the same direction.
