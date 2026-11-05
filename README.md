@@ -40,6 +40,7 @@ Two kinds of skills. **User-invoked** ones you run deliberately — a review you
 | [acos-visual-gen](skills/images/acos-visual-gen/SKILL.md) | images | model-invoked | research-grounded infographics and educational visuals |
 | [arcanea-book-cover](skills/images/arcanea-book-cover/SKILL.md) | images | model-invoked | book covers designed from tension, emotion, and genre |
 | [agnes-book-cover](skills/images/agnes-book-cover/SKILL.md) | images | model-invoked | an Agnes-based self-publishing cover study through an existing n8n connection; separate derivative, original Arcanea preserved |
+| [print-book-sample](skills/images/print-book-sample/SKILL.md) | images | model-invoked | practical and educator-guide print samples with grayscale layout and PDF preflight |
 | [brand-voice](skills/brand/brand-voice/SKILL.md) | brand | model-invoked | writing or reviewing anything that must sound like YOUR brand |
 
 ## How the video lane works
